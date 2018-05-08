@@ -1,0 +1,8 @@
+- name: 'jose'
+  occupation: 'Developer'
+
+- name: 'liz'
+  occupation: 'Programme'
+
+- name: 'Sandra'
+  occupation: 'Diseño'
