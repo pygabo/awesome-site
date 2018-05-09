@@ -5,4 +5,4 @@ categories: blog
 permalink: /:categories/:title/
 ---
 
-my first draft contenct+
+my first draft contenc

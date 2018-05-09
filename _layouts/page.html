@@ -1,14 +1,369 @@
 ---
 layout: default
 ---
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+<!-- start banner Area -->
+<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="{{ "/assets/img/bg/bg_home.jpg" | relative_url }}">
+    <div class="overlay-bg overlay">
+    </div>
+    <div class="container">
+        <div class="row fullscreen  d-flex align-items-center justify-content-end">
+            <div class="banner-content col-lg-6 col-md-12">
+                <h1>
+                    Proporcionamos
+                    <br/>
+                    <span>
+                        soluciones
+                    </span>
+                    que te
+                    <br/>
+                    facilitan la
+                    <span>
+                        vida.
+                    </span>
+                </h1>
+                <a href="#contact" class="primary-btn2 header-btn text-uppercase">
+                    Contactanos
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+<!-- start service Area-->
+<section class="service-area pt-100 pb-150" id="service">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">
+                        Algunos de nuestros servicios
+                    </h1>
+                    <p class="parrafo">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sigle-service col-lg-3 col-md-6">
+                <i class="fas fa-cogs fa-3x">
+                </i>
+                <h4>
+                    Product Designers
+                </h4>
+                <p class="parrafo">
+                    El objetivo final del Product Designer debe ser llegar a la versión más desarrollada de una aplicación.
+                </p>
+            </div>
+            <div class="sigle-service col-lg-3 col-md-6">
+                <i class="fab fa-python fa-3x">
+                </i>
+                <h4>
+                    Django Developers
+                </h4>
+                <p class="parrafo">
+                    Django está centrado en el desarrollo rápido de aplicaciones web basado en el principio de la programación
+                    <b>
+                        DRY (No te repitas)
+                    </b>
+                </p>
+            </div>
+            <div class="sigle-service col-lg-3 col-md-6">
+                <i class="fas fa-mobile-alt fa-3x">
+                </i>
+                <h4>
+                    Mobile Development
+                </h4>
+                <p class="parrafo">
+                    El mercado de los usuarios de teléfonos inteligentes cada vez es más y más grande.
+                </p>
+            </div>
+            <div class="sigle-service col-lg-3 col-md-6">
+                <i class="fas fa-boxes fa-3x">
+                </i>
+                <h4>
+                    Scalable products
+                </h4>
+                <p class="parrafo">
+                    La escalabilidad es una de las mejores caracterísiticas que debe tener un modelo de negocio exitoso.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end service Area-->
+<!-- Start About Area -->
+<section class="about-area" id="contact">
+    <div class="container-fluid">
+        <div class="row justify-content-end align-items-center d-flex no-padding">
+            <div class="col-lg-6 about-left mt-70">
+                <h1>
+                    Ponte en contacto
+                    <br/>
+                    con nosotros.
+                </h1>
+                <p>
+                    inappropriate behavior is often laughed off as “boys will be
+                    <br/>
+                    boys,” women face higher conduct standards especially
+                    <br/>
+                    in the workplace. That’s why it’s crucial that, as women, our
+                    <br/>
+                    behavior on the job is beyond reproach.
+                </p>
+                <div class="buttons">
+                    <a href="#" class="about-btn text-uppercase primary-border circle">
+                        What we offer
+                    </a>
+                    <a href="#" class="about-btn text-uppercase  primary-border circle">
+                        Get a free quote
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 about-right">
+                <img class="img-fluid" src="{{ "/assets/img/about.png" | relative_url }" alt=""/>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Area -->
+<!-- Start project Area -->
+<section class="project-area section-gap" id="project">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-40 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">
+                        Latest Project on the go
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        <br/>
+                        labore  et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="active-works-carousel mt-40">
+                <div class="item">
+                    <img class="img-fluid" src="{{ "/assets/img/project.jpg" | relative_url }" alt=""/>
+                    <div class="caption text-center mt-20">
+                        <h6 class="text-uppercase">
+                            Vector Illustration
+                        </h6>
+                        <p>
+                            LCD screens are uniquely modern in style, and the liquid crystals that make them work have
+                            <br/>
+                            allowed humanity to create slimmer, more portable technology.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="{{ "/assets/img/project.jpg" | relative_url }" alt=""/>
+                    <div class="caption text-center mt-20">
+                        <h6 class="text-uppercase">
+                            Vector Illustration
+                        </h6>
+                        <p>
+                            LCD screens are uniquely modern in style, and the liquid crystals that make them work have
+                            <br/>
+                            allowed humanity to create slimmer, more portable technology.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="{{ "/assets/img/project.jpg" | relative_url }" alt=""/>
+                    <div class="caption text-center mt-20">
+                        <h6 class="text-uppercase">
+                            Vector Illustration
+                        </h6>
+                        <p>
+                            LCD screens are uniquely modern in style, and the liquid crystals that make them work have
+                            <br/>
+                            allowed humanity to create slimmer, more portable technology.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="{{ "/assets/img/project.jpg" | relative_url }" alt=""/>
+                    <div class="caption text-center mt-20">
+                        <h6 class="text-uppercase">
+                            Vector Illustration
+                        </h6>
+                        <p>
+                            LCD screens are uniquely modern in style, and the liquid crystals that make them work have
+                            <br/>
+                            allowed humanity to create slimmer, more portable technology.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="{{ "/assets/img/project.jpg" | relative_url }" alt=""/>
+                    <div class="caption text-center mt-20">
+                        <h6 class="text-uppercase">
+                            Vector Illustration
+                        </h6>
+                        <p>
+                            LCD screens are uniquely modern in style, and the liquid crystals that make them work have
+                            <br/>
+                            allowed humanity to create slimmer, more portable technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End project Area -->
+<!-- Start skill Area -->
+<section class="skill-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 skill-left">
+                <h1 class="text-white mb-30">
+                    Nuestros campos de experiencia
+                </h1>
+                <p>
+                    Colocamos todo nuestro empeño para volvernos expertos en diferentes
+                    <br/>
+                    tecnologías para ofrecer soluciones rapidas y de calidad.
+                </p>
+            </div>
+            <div class="col-lg-6 skill-right">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-4 single-skill">
+                        <div class="skill1 d-block mx-auto">
+                        </div>
+                        <h4>
+                            Django Developers
+                        </h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 single-skill">
+                        <div class="skill2 d-block mx-auto">
+                        </div>
+                        <h4>
+                            Mobile Development
+                        </h4>
+                    </div>
+                    <div class="col-lg-4 col-md-4 single-skill">
+                        <div class="skill3 d-block mx-auto">
+                        </div>
+                        <h4>
+                            Scalable Products
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End skill Area -->
+<!-- Start team Area -->
+<section class="team-area section-gap" id="team">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-70 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">
+                        Nuestro equipo de trabajo
+                    </h1>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center d-flex align-items-center">
+            <div class="col-md-3 single-team">
+                <div class="thumb">
+                    <img class="img-fluid" src="https://avatars0.githubusercontent.com/u/17889145?s=400&v=4" alt=""/>
+                    <div class="align-items-center justify-content-center d-flex">
+                        <a href="https://github.com/joseGabriel06" target="_blank">>
+                            <i class="fab fa-github">
+                            </i>
+                        </i>
+                    </a>
+                    <a href="https://www.instagram.com/joseguzmanoficial/" target="_blank">>
+                        <i class="fab fa-instagram">
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <div class="meta-text mt-30 text-center">
+                <h4>
+                    Jose Guzman
+                </h4>
+                <p>
+                    FullStack Developer and founder
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3 single-team">
+            <div class="thumb">
+                <img class="img-fluid" src="https://avatars1.githubusercontent.com/u/23200285?s=400&v=4" alt=""/>
+                <div class="align-items-center justify-content-center d-flex">
+                    <a href="https://github.com/digbemez" target="_blank">
+                        <i class="fab fa-github">
+                        </i>
+                    </i>
+                </a>
+                <a href="https://www.instagram.com/digbemez/" target="_blank">>
+                    <i class="fab fa-instagram">
+                    </i>
+                </a>
+            </div>
+        </div>
+        <div class="meta-text mt-30 text-center">
+            <h4>
+                Diego Berrio
+            </h4>
+            <p>
+                Frontend Developer and co-founder
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!-- End team Area -->
+<!-- Start testimonial Area -->
+<section id="testimonio" class="testimonial-area relative section-gap">
+<div class="overlay overlay-bg">
+</div>
+<div class="container">
+<div class="row">
+    <div class="active-testimonial">
+        <div class="single-testimonial item d-flex flex-row">
+            <div class="container">
+                <div class="desc">
+                    <p class="desc-parrafo">
+                        Nos sentimos muy a gusto con el desarrollo de nuestro sitio web. Tenemos una nueva imagen corporativa, diseño y una gran acogida por todos nuestros clientes.
+                    </p>
+                    <h4 mt-30>
+                        Nanoprotec del caribe
+                    </h4>
+                    <p>
+                        Jairo Berdugo co-founder
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="single-testimonial item d-flex flex-row">
+            <div class="container">
+                <div class="desc">
+                    <p class="desc-parrafo">
+                        Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.
+                    </p>
+                    <h4 mt-30>
+                        Mark Alviro Wiens
+                    </h4>
+                    <p>
+                        CEO at Google
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!-- End testimonial Area -->
