@@ -1,0 +1,31 @@
+<!--
+    Start testimonial Area
+-->
+<section id="testimonio" class="testimonial-area relative section-gap">
+    <div class="overlay overlay-bg">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="active-testimonial">
+                {% for testim in site.data.testimonial %}
+                <div class="single-testimonial item d-flex flex-row">
+                    <div class="container">
+                        <div class="desc">
+                            <p class="desc-parrafo">
+                                {{ testim.parrafo }}
+                            </p>
+                            <h4 mt-30>
+                                {{ testim.name }}
+                            </h4>
+                            <p>
+                                {{ testim.company }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End testimonial Area -->

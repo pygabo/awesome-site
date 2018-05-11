@@ -1,92 +1,68 @@
-<!-- <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer> -->
-      <!-- start footer Area -->    
-      <footer class="footer-area section-gap">
-        <div class="container">
-          <div class="row">
+<footer class="footer-area section-gap">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-3  col-md-12">
-              <div class="single-footer-widget">
-                <h6>Top Products</h6>
-                <ul class="footer-nav">
-                  <li><a href="#">Managed Website</a></li>
-                  <li><a href="#">Manage Reputation</a></li>
-                  <li><a href="#">Power Tools</a></li>
-                  <li><a href="#">Marketing Service</a></li>
-                </ul>
-              </div>
+                <div class="single-footer-widget">
+                    <h6>
+                        Top Products
+                    </h6>
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="#">
+                                Managed Website
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Manage Reputation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Power Tools
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Marketing Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-lg-6  col-md-12">
-              <div class="single-footer-widget newsletter">
-                <h6>Newsletter</h6>
-                <p>You can trust us. we only send promo offers, not a single spam.</p>
-                <div id="mc_embed_signup">
-                  <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-
-                    <div class="form-group row" style="width: 100%">
-                      <div class="col-lg-8 col-md-12">
-                        <input name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-                        <div style="position: absolute; left: -5000px;">
-                          <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                        </div>
-                      </div> 
-                    
-                      <div class="col-lg-4 col-md-12">
-                        <button class="nw-btn primary-btn">Subscribe<span class="lnr lnr-arrow-right"></span></button>
-                      </div> 
-                    </div>    
-                    <div class="info"></div>
-                  </form>
-                </div>    
-              </div>
+                <div class="single-footer-widget">
+                    <h6>
+                        Correo de contatco
+                    </h6>
+                    <div class="footer-nav">
+                        {%- if site.email -%}
+                        <a class="u-email" href="mailto:{{ site.email }}">
+                            {{ site.email }}
+                        </a>
+                        {%- endif -%}
+                    </div>
+                    <div>
+                        {%- if site.author -%}
+                        {{ site.author | escape }}
+                        {%- else -%}
+                        {{ site.title | escape }}
+                        {%- endif -%}
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3  col-md-12">
-              
-            </div>            
-          </div>
-
-          <div class="row footer-bottom d-flex justify-content-between">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <p class="col-lg-8 col-sm-12 footer-text m-0 text-white"> </p>
+            </div>
+        </div>
+        <div class="row footer-bottom d-flex justify-content-between">
+            <!-- start footer Area -->
+            <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+            </p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             <div class="col-lg-4 col-sm-12 footer-social">
-              {% for soc in site.data.social %}
-              <a href="{{ soc.url }} "><i class="fa fa-{{ soc.name }}"></i></a>
-              {% endfor %}
+                {%- include social.html -%}
             </div>
-          </div>
         </div>
-      </footer>
-      <!-- End footer Area -->  
+    </div>
+</footer>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
