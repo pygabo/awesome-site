@@ -30,6 +30,22 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-lg-3  col-md-12">
+                <div class="single-footer-widget">
+                    <h6>
+                        Top
+                    </h6>
+                    <ul class="footer-nav">
+                        {% for item in site.data.section %}
+                        <li>
+                            <a href="#{{ item.name }}">
+                                {{ item.name }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
             <div class="col-lg-6  col-md-12">
                 <div class="single-footer-widget">
                     <h6>

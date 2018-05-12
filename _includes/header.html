@@ -10,26 +10,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
+                    {% for item in site.data.section %}
                     <li>
-                        <a href="#home">
-                            Inicio
+                        <a href="#{{ item.name }}">
+                            {{ item.name }}
                         </a>
                     </li>
-                    <li>
-                        <a href="#service">
-                            Servicios
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#project">
-                            Proyectos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#team">
-                            Equipo
-                        </a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
